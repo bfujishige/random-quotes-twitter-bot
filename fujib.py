@@ -8,10 +8,10 @@ from random import *
 import lxml
 
 errorPos = []
-consumer_key = '6Rpkg7YPx2vhTornBQwkA2pvp'
-consumer_secret = 'BuCXQId2S3lLWDbEbM7SzjOlotjaso8ZtE5QLADNmLxmlDj3Vm'
-access_token = '943698354134851584-1d00N3ryd5ndigfQ1usgEbCQuXHcXq6'
-access_token_secret = 'PcuT0WsnwjdGqJ4OZEoOQKKZslQbUXRDpDr8hJrgIu7um'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
